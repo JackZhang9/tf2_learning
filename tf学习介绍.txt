@@ -1,0 +1,28 @@
+学习建议：
+忘掉tf1.x
+keras逐渐淡出，
+keras是tf的一个API,
+
+为什么要使用tf？
+1.gpu加速，并行加速，比cpu快很多
+2.自动求导，
+3.神经网络API，神经网络有很多功能都是一样的，比如全连接层，卷积层，
+tf.matmul         	 layers.Dense
+tf.nn.conv2d    	 layers.Conv2D
+tf.nn.relu		 layers.SimpleRNN
+tf.nn.max_pool2d	 layers.LSTM
+tf.nn.sigmoid	 layers.ReLU
+tf.nn.softmax	 layers.Maxpool2D
+
+直接调用tf的接口，不需要自己实现每一层的逻辑，调用tf的接口，完成复杂神经网络
+的搭建，使用gpu加速功能，完成加速
+
+
+
+
+
+
+
+
+
+
