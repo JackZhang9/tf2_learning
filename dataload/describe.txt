@@ -1,0 +1,41 @@
+# 经典数据集加载介绍
+
+数据集的加载是很关键的，多数情况下，一个新建好的模型是不马上去数据集上跑的，而是会在这些经典数据集上进行试验，
+因此，学会加载经典数据集是很重要的。
+
+为此，特地写了在tensorflow中如何加载经典数据集的方法，后称tf。
+
+在tf中，通过keras.datasets库来进行经典数据集的下载，
+下载完后，还提供了加载，转换的方法，
+
+在tf中，有tf.data.dataset数据集库，以实现多线程，预处理，随机打散，批训练。
+
+如：
+boston housing :回归预测房价
+CIFAR10/100 ：分类图片
+MNIST/Fashion_MNIST :手写数字图片数据集，图片分类
+IMDB ：文本分类
+
+加载方式：datasets.name.load_data()
+
+默认加载到用户目录下的.keras/datasets文件夹
+
+转换成datasets对象
+tf.data.Dataset.from_tensor_slices((x_train,y_train))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
