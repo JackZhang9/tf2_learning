@@ -12,6 +12,13 @@ gru_model_deploy is gru load model,using it to load trained gru model,and use th
 i draw the picture to view, and the effection is pretty good,i'm proud of neural network's extremally power,gru perfectly fit the temp trend,
 it's a good rnn model
 
+finally i saved my binary model in the file named keras_model,this is the model file with model_self and model weights,so you can simplelly launch
+this model from this folder.
+just do this steps:
+import dependencies,
+load_model,
+done!
+
 20220927 updated
 
 
