@@ -1,4 +1,4 @@
-#climate gru model
+climate gru model
 using to predict temp of climate with gru model,having 2 versions,one has direction,another don't has it
 i make a pure gru model that don;t has directions,using this as forecast model,convert it to 2 files,
 
