@@ -14,6 +14,9 @@ it's a good rnn model
 
 finally i saved my binary model in the file named keras_model,this is the model file with model_self and model weights,so you can simplelly launch
 this model from this folder.
+
+i submit traindataset and testdatasets forecast results with csv formats.
+
 just do this steps:
 import dependencies,
 load_model,
