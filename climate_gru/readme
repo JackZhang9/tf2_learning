@@ -5,8 +5,14 @@ i make a pure gru model that don;t has directions,using this as forecast model,c
 
 20220926
 
+pure_gru_model is a gru train model,using it to trainning model and save,it have a save format,example:model.save,
 
+gru_model_deploy is gru load model,using it to load trained gru model,and use the model to predict forecast climate temp data,
 
+i draw the picture to view, and the effection is pretty good,i'm proud of neural network's extremally power,gru perfectly fit the temp trend,
+it's a good rnn model
+
+20220927 updated
 
 
 
