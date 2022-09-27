@@ -1,0 +1,17 @@
+train and save model,need dependencies
+import numpy as np
+import pandas as pd
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.layers import GRU
+from sklearn.preprocessing import MinMaxScaler
+
+load model and predict,need dependencies
+import numpy as np
+import pandas as pd
+import tensorflow as tf
+from sklearn.preprocessing import MinMaxScaler
+
+some lib may be use in some conditions,such as matplotlab,don't need it,but 
+sometimes it plays a role on displaying prediction results with a picture,but we 
+don't need it indeed in whool process.
